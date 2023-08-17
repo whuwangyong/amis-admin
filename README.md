@@ -22,3 +22,10 @@ npm start
 这个例子中的 amis 等依赖使用外部 cdn，为了稳定请在自己部署的时候将文件下载到本地。
 
 将amis-sdk下载到public/static/目录下即可。
+
+## 参考
+mrsdpz的fork项目提供了很多帮助：https://github.com/mrsdpz/amis-admin/blob/master/book/1.md
+
+# 开发记录
+1. amis不负责跨域，可以在服务端实现
+2. 目前版本header的处理欠妥 https://github.com/baidu/amis/issues/6947
