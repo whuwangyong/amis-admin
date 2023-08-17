@@ -74,6 +74,11 @@
             "icon": "fa fa-cube",
             "children": [
               {
+                "label":"apps",
+                "url":"/api/apps",
+                "schemaApi": "get:/pages/inspector/apps.json"
+              },
+              {
                 "label": "列表",
                 "url": "/crud/list",
                 "icon": "fa fa-list",
