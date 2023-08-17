@@ -2,6 +2,6 @@
 /package-lock.json
 /gh-pages
 dist/
-public/static/amis-sdk/
 yarn.lock
 yarn-error.log
+sdk/amis*
